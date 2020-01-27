@@ -10,7 +10,7 @@ class ErrorLogAlert:
     def send_email(self):
         mail_host="smtp.qq.com"           # 设置服务器
         mail_user="2325227059@qq.com"     # 用户名
-        mail_pass="tuvipwqxsvnxdice"           # 口令(qq邮箱非密码)
+        mail_pass=""           # 口令(qq邮箱非密码)
 
         sender = '2325227059@qq.com'
         receivers = ['zhangxiaoyi@kylinos.com.cn']   # 接收邮箱，可设置为你的QQ邮箱或者其他邮箱
