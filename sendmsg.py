@@ -17,8 +17,8 @@ class ErrorLogAlert:
 
         subject = 'test错误日志变动提醒！'               							# 邮件标题
         message = MIMEText('您的日志中出现错误，请查看：{0}', 'plain', 'utf-8')   # 邮件正文内容
-        message['From'] = '2325227059@qq.com'                         # 邮件头信息
-        message['To'] = 'zhang.xiao.yi@foxmail.com'                   # 邮件头信息
+        message['From'] = '?@qq.com'                         # 邮件头信息
+        message['To'] = '?'                   # 邮件头信息
         message['Subject'] = Header(subject, 'utf-8')
 
         try:
